@@ -34,4 +34,14 @@ public class ZoneController {
         return map;
     }
 
+    @RequestMapping(value = "/index_1", method = RequestMethod.GET)
+    public @ResponseBody
+    ModelMap index_1(@RequestParam Map<String,Object> parm){
+        ModelMap map = new ModelMap();
+        List<User> list = userService.getUserList();
+        map.put("data",list);
+        LOGGER.info("测试呢啊哈哈哈哈哈哈");
+        return map;
+    }
+
 }
