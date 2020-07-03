@@ -34,7 +34,6 @@ public class ZoneController {
         return map;
     }
 
-
     @RequestMapping(value = "/index_1", method = RequestMethod.GET)
     public @ResponseBody
     ModelMap index_1(@RequestParam Map<String,Object> parm){
