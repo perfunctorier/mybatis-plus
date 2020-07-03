@@ -1,0 +1,47 @@
+
+
+spring:
+  #配置jdbc数据源
+  datasource:
+    url: jdbc:mysql://localhost:3306/city?serverTimezone=UTC&userUnicode=true&characterEncoding=utf-8
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    filter: log4j
+  #jsp支持
+  mvc:
+    view:
+      suffix: .jsp
+      prefix: /WEB-INF/views
+  #关闭默认模板引擎
+  thymeleaf:
+    cache: false
+    enabled: false
+
+mybatis-plus:
+  global-config:
+    db-config:
+      id-type: auto
+      logic-delete-field: not_empty
+      #驼峰下划线转换
+      column-underline: true
+      #逻辑删除配置
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+      db-type: mysql
+    refresh: false
+  configuration:
+    map-underscore-to-camel-case: true
+    cache-enabled: false
+
+# 日志目录
+logging:
+  config: classpath:config/logback-spring.xml
+  file:
+    path: home/logs/
+    name: springboot
+server:
+  port: 8082
+
+

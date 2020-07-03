@@ -1,0 +1,52 @@
+2020-07-02 14:31:44.199 [main] INFO  com.xinlei.MybatisPlusApplication - Starting MybatisPlusApplication on DESKTOP-EQ8JBUC with PID 21944 (F:\Java\mybatis-plus\target\classes started by dell in F:\Java\mybatis-plus)
+2020-07-02 14:31:44.204 [main] INFO  com.xinlei.MybatisPlusApplication - No active profile set, falling back to default profiles: default
+2020-07-02 14:31:46.674 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-07-02 14:31:46.690 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-02 14:31:46.692 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-07-02 14:31:46.692 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-02 14:31:47.074 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-07-02 14:31:47.081 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-07-02 14:31:47.081 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2798 ms
+2020-07-02 14:31:48.097 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-02 14:31:48.405 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-07-02 14:31:48.489 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-02 14:31:48.506 [main] INFO  com.xinlei.MybatisPlusApplication - Started MybatisPlusApplication in 5.293 seconds (JVM running for 6.7)
+2020-07-02 14:32:11.269 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-02 14:32:11.269 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-07-02 14:32:11.286 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 17 ms
+2020-07-02 14:32:17.167 [http-nio-8080-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-07-02 14:32:17.826 [http-nio-8080-exec-1] INFO  com.xinlei.controller.ZoneController - 测试呢啊哈哈哈哈哈哈
+2020-07-02 14:38:15.386 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-02 14:38:15.387 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-07-02 14:38:15.406 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-07-02 14:38:22.712 [main] INFO  com.xinlei.MybatisPlusApplication - Starting MybatisPlusApplication on DESKTOP-EQ8JBUC with PID 11668 (F:\Java\mybatis-plus\target\classes started by dell in F:\Java\mybatis-plus)
+2020-07-02 14:38:22.717 [main] INFO  com.xinlei.MybatisPlusApplication - No active profile set, falling back to default profiles: default
+2020-07-02 14:38:24.146 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2020-07-02 14:38:24.159 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2020-07-02 14:38:24.161 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-07-02 14:38:24.162 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-02 14:38:24.527 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-07-02 14:38:24.531 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-07-02 14:38:24.532 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1770 ms
+2020-07-02 14:38:25.331 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-02 14:38:25.577 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2020-07-02 14:38:25.608 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2020-07-02 14:38:25.620 [main] INFO  com.xinlei.MybatisPlusApplication - Started MybatisPlusApplication in 3.468 seconds (JVM running for 4.392)
+2020-07-02 14:39:27.419 [main] INFO  com.xinlei.MybatisPlusApplication - Starting MybatisPlusApplication on DESKTOP-EQ8JBUC with PID 18492 (F:\Java\mybatis-plus\target\classes started by dell in F:\Java\mybatis-plus)
+2020-07-02 14:39:27.426 [main] INFO  com.xinlei.MybatisPlusApplication - No active profile set, falling back to default profiles: default
+2020-07-02 14:39:29.348 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2020-07-02 14:39:29.357 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2020-07-02 14:39:29.358 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-07-02 14:39:29.358 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-02 14:39:29.623 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-07-02 14:39:29.627 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-07-02 14:39:29.627 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2070 ms
+2020-07-02 14:39:30.438 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-02 14:39:30.733 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2020-07-02 14:39:30.763 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2020-07-02 14:39:30.772 [main] INFO  com.xinlei.MybatisPlusApplication - Started MybatisPlusApplication in 4.166 seconds (JVM running for 5.365)
+2020-07-02 14:39:59.065 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-02 14:39:59.065 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-07-02 14:39:59.088 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 22 ms
+2020-07-02 14:39:59.423 [http-nio-8082-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-07-02 14:39:59.989 [http-nio-8082-exec-1] INFO  com.xinlei.controller.ZoneController - 测试呢啊哈哈哈哈哈哈
