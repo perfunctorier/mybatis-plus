@@ -1,5 +1,3 @@
-
-
 spring:
   #配置jdbc数据源
   datasource:
@@ -10,14 +8,24 @@ spring:
     type: com.alibaba.druid.pool.DruidDataSource
     filter: log4j
   #jsp支持
-  mvc:
-    view:
-      suffix: .jsp
-      prefix: /WEB-INF/views
+  #mvc:
+  #  view:
+  #    suffix: .jsp
+  #    prefix: /WEB-INF/views
   #关闭默认模板引擎
   thymeleaf:
     cache: false
-    enabled: false
+    #路径
+    prefix: classpath:/templates/
+    #后缀
+    suffix: .html
+    #编码
+    encoding: UTF-8
+    mode: HTML5
+  security:
+    user:
+      name: admin
+      password: 123456
 
 mybatis-plus:
   global-config:

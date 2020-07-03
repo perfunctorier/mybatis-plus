@@ -1,3 +1,304 @@
 2020-07-03 09:15:02.835 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
 2020-07-03 09:15:07.035 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
 2020-07-03 09:15:08.156 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-07-03 15:21:39.432 [main] INFO  com.xinlei.MybatisPlusApplication - Starting MybatisPlusApplication on DESKTOP-EQ8JBUC with PID 20320 (F:\test\mybatis-plus\target\classes started by dell in F:\test\mybatis-plus)
+2020-07-03 15:21:39.437 [main] INFO  com.xinlei.MybatisPlusApplication - No active profile set, falling back to default profiles: default
+2020-07-03 15:21:41.578 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2020-07-03 15:21:41.588 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2020-07-03 15:21:41.590 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-07-03 15:21:41.590 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-03 15:21:41.873 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-07-03 15:21:41.883 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-07-03 15:21:41.883 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2375 ms
+2020-07-03 15:21:43.080 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-03 15:21:43.475 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 6af09de6-dc5a-4a0f-9b71-cdaf91869d9d
+
+2020-07-03 15:21:43.561 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@53e800f9, org.springframework.security.web.context.SecurityContextPersistenceFilter@7ff35a3f, org.springframework.security.web.header.HeaderWriterFilter@558756be, org.springframework.security.web.csrf.CsrfFilter@6ede46f6, org.springframework.security.web.authentication.logout.LogoutFilter@7a0e7ecd, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@77bbadc, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@9596ce8, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@337bbfdf, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1422ac7f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@252dc8c4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@26f46fa6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@52d97ab6, org.springframework.security.web.session.SessionManagementFilter@6d1dcdff, org.springframework.security.web.access.ExceptionTranslationFilter@6069dd38, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3ed7821]
+2020-07-03 15:21:43.592 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2020-07-03 15:21:43.654 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2020-07-03 15:21:43.662 [main] INFO  com.xinlei.MybatisPlusApplication - Started MybatisPlusApplication in 6.66 seconds (JVM running for 9.56)
+2020-07-03 15:22:27.389 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-03 15:22:27.389 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-07-03 15:22:27.396 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2020-07-03 15:37:34.841 [http-nio-8082-exec-8] INFO  com.xinlei.controller.ZoneController - 测试呢啊哈哈哈哈哈哈
+2020-07-03 17:25:18.722 [main] INFO  com.xinlei.MybatisPlusApplication - Starting MybatisPlusApplication on DESKTOP-EQ8JBUC with PID 20660 (F:\test\mybatis-plus\target\classes started by dell in F:\test\mybatis-plus)
+2020-07-03 17:25:18.771 [main] INFO  com.xinlei.MybatisPlusApplication - No active profile set, falling back to default profiles: default
+2020-07-03 17:25:22.418 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2020-07-03 17:25:22.429 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2020-07-03 17:25:22.430 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-07-03 17:25:22.430 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-03 17:25:22.552 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-07-03 17:25:22.553 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3649 ms
+2020-07-03 17:25:24.792 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2020-07-03 17:25:24.795 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-07-03 17:25:24.892 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-07-03 17:34:34.970 [main] INFO  com.xinlei.MybatisPlusApplication - Starting MybatisPlusApplication on DESKTOP-EQ8JBUC with PID 19784 (F:\test\mybatis-plus\target\classes started by dell in F:\test\mybatis-plus)
+2020-07-03 17:34:34.990 [main] INFO  com.xinlei.MybatisPlusApplication - No active profile set, falling back to default profiles: default
+2020-07-03 17:34:42.436 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2020-07-03 17:34:42.449 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2020-07-03 17:34:42.450 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-07-03 17:34:42.450 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-03 17:34:42.758 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-07-03 17:34:42.758 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 7677 ms
+2020-07-03 17:34:45.657 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2020-07-03 17:34:45.704 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-07-03 17:34:45.941 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-07-03 17:36:14.823 [main] INFO  com.xinlei.MybatisPlusApplication - Starting MybatisPlusApplication on DESKTOP-EQ8JBUC with PID 3352 (F:\test\mybatis-plus\target\classes started by dell in F:\test\mybatis-plus)
+2020-07-03 17:36:15.050 [main] INFO  com.xinlei.MybatisPlusApplication - No active profile set, falling back to default profiles: default
+2020-07-03 17:36:19.703 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2020-07-03 17:36:19.714 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2020-07-03 17:36:19.715 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-07-03 17:36:19.715 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-03 17:36:19.880 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-07-03 17:36:19.880 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4638 ms
+2020-07-03 17:36:21.927 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2020-07-03 17:36:21.931 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-07-03 17:36:22.016 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-07-03 17:38:13.049 [main] INFO  com.xinlei.MybatisPlusApplication - Starting MybatisPlusApplication on DESKTOP-EQ8JBUC with PID 10564 (F:\test\mybatis-plus\target\classes started by dell in F:\test\mybatis-plus)
+2020-07-03 17:38:13.081 [main] INFO  com.xinlei.MybatisPlusApplication - No active profile set, falling back to default profiles: default
+2020-07-03 17:38:17.003 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2020-07-03 17:38:17.024 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2020-07-03 17:38:17.025 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-07-03 17:38:17.025 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-03 17:38:17.249 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-07-03 17:38:17.249 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3892 ms
+2020-07-03 17:38:20.418 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2020-07-03 17:38:20.421 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-07-03 17:38:20.509 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-07-03 17:48:47.440 [main] INFO  com.xinlei.MybatisPlusApplication - Starting MybatisPlusApplication on DESKTOP-EQ8JBUC with PID 19576 (F:\test\mybatis-plus\target\classes started by dell in F:\test\mybatis-plus)
+2020-07-03 17:48:47.467 [main] INFO  com.xinlei.MybatisPlusApplication - No active profile set, falling back to default profiles: default
+2020-07-03 17:48:55.046 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2020-07-03 17:48:55.067 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2020-07-03 17:48:55.068 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-07-03 17:48:55.069 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-03 17:48:55.271 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-07-03 17:48:55.272 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 7653 ms
+2020-07-03 17:48:57.820 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2f054f70, org.springframework.security.web.context.SecurityContextPersistenceFilter@96897c8, org.springframework.security.web.header.HeaderWriterFilter@383cb5ce, org.springframework.security.web.authentication.logout.LogoutFilter@2dfeb141, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2a8f6e6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7f97bc14, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@261de205, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@1ac730cd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6467ddc7, org.springframework.security.web.session.SessionManagementFilter@798deee8, org.springframework.security.web.access.ExceptionTranslationFilter@4b97b3d2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@52b959df]
+2020-07-03 17:48:58.162 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-03 17:48:58.640 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2020-07-03 17:48:58.682 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2020-07-03 17:48:58.694 [main] INFO  com.xinlei.MybatisPlusApplication - Started MybatisPlusApplication in 14.868 seconds (JVM running for 25.147)
+2020-07-03 17:49:10.061 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-03 17:49:10.062 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-07-03 17:49:10.069 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2020-07-03 17:51:45.711 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-03 17:51:45.712 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2020-07-03 17:51:59.398 [main] INFO  com.xinlei.MybatisPlusApplication - Starting MybatisPlusApplication on DESKTOP-EQ8JBUC with PID 16012 (F:\test\mybatis-plus\target\classes started by dell in F:\test\mybatis-plus)
+2020-07-03 17:51:59.402 [main] INFO  com.xinlei.MybatisPlusApplication - No active profile set, falling back to default profiles: default
+2020-07-03 17:52:03.454 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2020-07-03 17:52:03.490 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2020-07-03 17:52:03.491 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-07-03 17:52:03.491 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-03 17:52:03.948 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-07-03 17:52:03.949 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4467 ms
+2020-07-03 17:52:06.634 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@71664560, org.springframework.security.web.context.SecurityContextPersistenceFilter@6af5b246, org.springframework.security.web.header.HeaderWriterFilter@ea7a4c3, org.springframework.security.web.authentication.logout.LogoutFilter@365afe87, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@108e9837, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@31723307, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2d7637e6, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@79a201cf, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4d4436d0, org.springframework.security.web.session.SessionManagementFilter@7d42404e, org.springframework.security.web.access.ExceptionTranslationFilter@2e1eb85f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4ef4f627]
+2020-07-03 17:52:06.782 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-03 17:52:07.166 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2020-07-03 17:52:07.217 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2020-07-03 17:52:07.260 [main] INFO  com.xinlei.MybatisPlusApplication - Started MybatisPlusApplication in 9.99 seconds (JVM running for 14.227)
+2020-07-03 17:52:33.425 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-03 17:52:33.425 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-07-03 17:52:33.433 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2020-07-03 18:03:53.160 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-03 18:03:53.160 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2020-07-03 18:04:28.878 [main] INFO  com.xinlei.MybatisPlusApplication - Starting MybatisPlusApplication on DESKTOP-EQ8JBUC with PID 15824 (F:\test\mybatis-plus\target\classes started by dell in F:\test\mybatis-plus)
+2020-07-03 18:04:28.881 [main] INFO  com.xinlei.MybatisPlusApplication - No active profile set, falling back to default profiles: default
+2020-07-03 18:04:33.954 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2020-07-03 18:04:33.980 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2020-07-03 18:04:33.981 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-07-03 18:04:33.981 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-03 18:04:34.201 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-07-03 18:04:34.201 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4596 ms
+2020-07-03 18:04:35.831 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@bc09d57, org.springframework.security.web.context.SecurityContextPersistenceFilter@f613067, org.springframework.security.web.header.HeaderWriterFilter@4dfdfe7d, org.springframework.security.web.authentication.logout.LogoutFilter@6a950a3b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@498c535d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@c1e14f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2c30c81d, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@16ee9aa7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6d963d70, org.springframework.security.web.session.SessionManagementFilter@1578b8ec, org.springframework.security.web.access.ExceptionTranslationFilter@1e1237ab, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@59d0cdb6]
+2020-07-03 18:04:35.969 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-03 18:04:36.231 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2020-07-03 18:04:36.279 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2020-07-03 18:04:36.290 [main] INFO  com.xinlei.MybatisPlusApplication - Started MybatisPlusApplication in 8.703 seconds (JVM running for 11.125)
+2020-07-03 18:04:54.155 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-03 18:04:54.155 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-07-03 18:04:54.167 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2020-07-03 18:16:17.524 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-03 18:16:17.524 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2020-07-03 18:16:40.879 [main] INFO  com.xinlei.MybatisPlusApplication - Starting MybatisPlusApplication on DESKTOP-EQ8JBUC with PID 18440 (F:\test\mybatis-plus\target\classes started by dell in F:\test\mybatis-plus)
+2020-07-03 18:16:40.882 [main] INFO  com.xinlei.MybatisPlusApplication - No active profile set, falling back to default profiles: default
+2020-07-03 18:16:43.761 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2020-07-03 18:16:43.774 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2020-07-03 18:16:43.775 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-07-03 18:16:43.775 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-03 18:16:43.974 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-07-03 18:16:43.975 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2959 ms
+2020-07-03 18:16:45.110 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@62ade015, org.springframework.security.web.context.SecurityContextPersistenceFilter@7f3fc42f, org.springframework.security.web.header.HeaderWriterFilter@79ba0a6f, org.springframework.security.web.authentication.logout.LogoutFilter@55736cfe, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6cbb175, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5d352de0, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@70ede57d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@25a1a012, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@b950f82, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@38fb50f8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@70997a94, org.springframework.security.web.session.SessionManagementFilter@261de205, org.springframework.security.web.access.ExceptionTranslationFilter@267f9765, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@27b337bb]
+2020-07-03 18:16:45.241 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-03 18:16:45.477 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2020-07-03 18:16:45.545 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2020-07-03 18:16:45.556 [main] INFO  com.xinlei.MybatisPlusApplication - Started MybatisPlusApplication in 6.159 seconds (JVM running for 8.12)
+2020-07-03 18:17:21.150 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-03 18:17:21.150 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-07-03 18:17:21.162 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2020-07-03 18:17:49.267 [http-nio-8082-exec-3] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-07-03 18:21:51.490 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-03 18:21:51.491 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-07-03 18:21:51.540 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-07-03 18:22:07.215 [main] INFO  com.xinlei.MybatisPlusApplication - Starting MybatisPlusApplication on DESKTOP-EQ8JBUC with PID 2784 (F:\test\mybatis-plus\target\classes started by dell in F:\test\mybatis-plus)
+2020-07-03 18:22:07.273 [main] INFO  com.xinlei.MybatisPlusApplication - No active profile set, falling back to default profiles: default
+2020-07-03 18:22:12.373 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2020-07-03 18:22:12.765 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2020-07-03 18:22:12.766 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-07-03 18:22:12.766 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-03 18:22:14.840 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-07-03 18:22:14.840 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 7252 ms
+2020-07-03 18:22:16.762 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@43245559, org.springframework.security.web.context.SecurityContextPersistenceFilter@6c977dcf, org.springframework.security.web.header.HeaderWriterFilter@16d07cf3, org.springframework.security.web.authentication.logout.LogoutFilter@3f9b7fe1, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4cc01c7f, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2233cac0, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@42e4e589, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@661d6bb6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3b481bf5, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@2a50b32d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@499ee966, org.springframework.security.web.session.SessionManagementFilter@16f0ec18, org.springframework.security.web.access.ExceptionTranslationFilter@525b1b70, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@52f6900a]
+2020-07-03 18:22:16.878 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-03 18:22:17.108 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2020-07-03 18:22:17.228 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2020-07-03 18:22:17.241 [main] INFO  com.xinlei.MybatisPlusApplication - Started MybatisPlusApplication in 11.806 seconds (JVM running for 13.345)
+2020-07-03 18:22:37.003 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-03 18:22:37.003 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-07-03 18:22:37.010 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2020-07-03 18:22:48.742 [http-nio-8082-exec-4] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-07-03 18:35:47.309 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-03 18:35:47.336 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-07-03 18:35:47.621 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-07-03 18:36:30.863 [main] INFO  com.xinlei.MybatisPlusApplication - Starting MybatisPlusApplication on DESKTOP-EQ8JBUC with PID 18724 (F:\test\mybatis-plus\target\classes started by dell in F:\test\mybatis-plus)
+2020-07-03 18:36:30.872 [main] INFO  com.xinlei.MybatisPlusApplication - No active profile set, falling back to default profiles: default
+2020-07-03 18:36:36.001 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2020-07-03 18:36:36.025 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2020-07-03 18:36:36.028 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-07-03 18:36:36.029 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-03 18:36:36.400 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-07-03 18:36:36.401 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5358 ms
+2020-07-03 18:36:39.291 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2020-07-03 18:36:39.300 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-07-03 18:36:39.434 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-07-03 18:39:48.920 [main] INFO  com.xinlei.MybatisPlusApplication - Starting MybatisPlusApplication on DESKTOP-EQ8JBUC with PID 16296 (F:\test\mybatis-plus\target\classes started by dell in F:\test\mybatis-plus)
+2020-07-03 18:39:48.932 [main] INFO  com.xinlei.MybatisPlusApplication - No active profile set, falling back to default profiles: default
+2020-07-03 18:39:55.090 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2020-07-03 18:39:55.122 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2020-07-03 18:39:55.126 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-07-03 18:39:55.127 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-03 18:39:55.529 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-07-03 18:39:55.529 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 6335 ms
+2020-07-03 18:39:57.788 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@35eee641, org.springframework.security.web.context.SecurityContextPersistenceFilter@193eb1ba, org.springframework.security.web.header.HeaderWriterFilter@76437e9b, org.springframework.security.web.authentication.logout.LogoutFilter@79ba0a6f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1e98b788, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1d7eb170, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5729b410, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2be818da, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5c931134, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@794eeaf8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@64518270, org.springframework.security.web.session.SessionManagementFilter@236ae13d, org.springframework.security.web.access.ExceptionTranslationFilter@12d40609, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1f4f0fcc]
+2020-07-03 18:39:58.102 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-03 18:39:58.514 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2020-07-03 18:39:58.565 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2020-07-03 18:39:58.580 [main] INFO  com.xinlei.MybatisPlusApplication - Started MybatisPlusApplication in 11.898 seconds (JVM running for 14.794)
+2020-07-03 18:40:11.007 [http-nio-8082-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-03 18:40:11.008 [http-nio-8082-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-07-03 18:40:11.035 [http-nio-8082-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 27 ms
+2020-07-03 18:40:34.186 [http-nio-8082-exec-6] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-07-03 18:43:14.690 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-03 18:43:14.690 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-07-03 18:43:14.725 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-07-03 18:43:47.589 [main] INFO  com.xinlei.MybatisPlusApplication - Starting MybatisPlusApplication on DESKTOP-EQ8JBUC with PID 1956 (F:\test\mybatis-plus\target\classes started by dell in F:\test\mybatis-plus)
+2020-07-03 18:43:47.591 [main] INFO  com.xinlei.MybatisPlusApplication - No active profile set, falling back to default profiles: default
+2020-07-03 18:43:56.049 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2020-07-03 18:43:56.106 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2020-07-03 18:43:56.107 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-07-03 18:43:56.107 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-03 18:43:56.386 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-07-03 18:43:56.386 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 8683 ms
+2020-07-03 18:43:57.664 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7eeb38b2, org.springframework.security.web.context.SecurityContextPersistenceFilter@6f9ab79d, org.springframework.security.web.header.HeaderWriterFilter@4877919f, org.springframework.security.web.authentication.logout.LogoutFilter@22825e1e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@52bd9a27, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4cc01c7f, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@d54d0f5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@64ae105d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2b80e5a9, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@611e5819, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6d6bff89, org.springframework.security.web.session.SessionManagementFilter@47a7c93e, org.springframework.security.web.access.ExceptionTranslationFilter@1e12a5a6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1d15c0a1]
+2020-07-03 18:43:57.842 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-03 18:43:58.196 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2020-07-03 18:43:58.251 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2020-07-03 18:43:58.263 [main] INFO  com.xinlei.MybatisPlusApplication - Started MybatisPlusApplication in 13.048 seconds (JVM running for 17.107)
+2020-07-03 18:44:05.315 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-03 18:44:05.316 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-07-03 18:44:05.326 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2020-07-03 18:44:29.328 [http-nio-8082-exec-5] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-07-03 18:49:42.948 [http-nio-8082-exec-10] INFO  com.xinlei.controller.ZoneController - 测试呢啊哈哈哈哈哈哈
+2020-07-03 18:54:01.677 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-03 18:54:01.678 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-07-03 18:54:01.773 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-07-03 18:54:27.926 [main] INFO  com.xinlei.MybatisPlusApplication - Starting MybatisPlusApplication on DESKTOP-EQ8JBUC with PID 17284 (F:\test\mybatis-plus\target\classes started by dell in F:\test\mybatis-plus)
+2020-07-03 18:54:27.934 [main] INFO  com.xinlei.MybatisPlusApplication - No active profile set, falling back to default profiles: default
+2020-07-03 18:54:29.814 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2020-07-03 18:54:29.827 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2020-07-03 18:54:29.828 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-07-03 18:54:29.828 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-03 18:54:30.029 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-07-03 18:54:30.029 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1983 ms
+2020-07-03 18:54:31.139 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1b4872bc, org.springframework.security.web.context.SecurityContextPersistenceFilter@5348d83c, org.springframework.security.web.header.HeaderWriterFilter@6010d0d1, org.springframework.security.web.authentication.logout.LogoutFilter@577bf0aa, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@70716259, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@29d405e6, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@498a612d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@477021ee, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5b35c7d, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@7a083b96, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1e1237ab, org.springframework.security.web.session.SessionManagementFilter@5934ca1e, org.springframework.security.web.access.ExceptionTranslationFilter@bd3eff4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2a140ce5]
+2020-07-03 18:54:31.250 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-03 18:54:31.491 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2020-07-03 18:54:31.529 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2020-07-03 18:54:31.539 [main] INFO  com.xinlei.MybatisPlusApplication - Started MybatisPlusApplication in 4.565 seconds (JVM running for 5.921)
+2020-07-03 18:54:46.810 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-03 18:54:46.811 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-07-03 18:54:46.818 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2020-07-03 18:55:04.600 [http-nio-8082-exec-10] INFO  com.xinlei.controller.ZoneController - 测试呢啊哈哈哈哈哈哈
+2020-07-03 18:55:16.514 [http-nio-8082-exec-4] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-07-03 18:57:51.138 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-03 18:57:51.140 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-07-03 18:57:51.166 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-07-03 18:58:03.498 [main] INFO  com.xinlei.MybatisPlusApplication - Starting MybatisPlusApplication on DESKTOP-EQ8JBUC with PID 19600 (F:\test\mybatis-plus\target\classes started by dell in F:\test\mybatis-plus)
+2020-07-03 18:58:03.503 [main] INFO  com.xinlei.MybatisPlusApplication - No active profile set, falling back to default profiles: default
+2020-07-03 18:58:05.207 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2020-07-03 18:58:05.216 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2020-07-03 18:58:05.217 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-07-03 18:58:05.217 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-03 18:58:05.393 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-07-03 18:58:05.394 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1800 ms
+2020-07-03 18:58:06.682 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@608cd501, org.springframework.security.web.context.SecurityContextPersistenceFilter@4f820f42, org.springframework.security.web.header.HeaderWriterFilter@383cb5ce, org.springframework.security.web.authentication.logout.LogoutFilter@4d0cc83e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2f054f70, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@32a72c4, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@3b97907c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4b325930, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@69aabcb0, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@6467ddc7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@59096b66, org.springframework.security.web.session.SessionManagementFilter@5e002356, org.springframework.security.web.access.ExceptionTranslationFilter@4b97b3d2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3c9ef6e9]
+2020-07-03 18:58:06.812 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-03 18:58:07.118 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2020-07-03 18:58:07.161 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2020-07-03 18:58:07.175 [main] INFO  com.xinlei.MybatisPlusApplication - Started MybatisPlusApplication in 5.473 seconds (JVM running for 7.61)
+2020-07-03 18:58:15.217 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-03 18:58:15.218 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-07-03 18:58:15.241 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 23 ms
+2020-07-03 18:58:20.634 [http-nio-8082-exec-4] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-07-03 19:02:50.233 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-03 19:02:50.234 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-07-03 19:02:50.353 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-07-03 19:03:16.430 [main] INFO  com.xinlei.MybatisPlusApplication - Starting MybatisPlusApplication on DESKTOP-EQ8JBUC with PID 7428 (F:\test\mybatis-plus\target\classes started by dell in F:\test\mybatis-plus)
+2020-07-03 19:03:16.440 [main] INFO  com.xinlei.MybatisPlusApplication - No active profile set, falling back to default profiles: default
+2020-07-03 19:03:21.305 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2020-07-03 19:03:21.315 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2020-07-03 19:03:21.316 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-07-03 19:03:21.316 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-03 19:03:21.619 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-07-03 19:03:21.620 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4913 ms
+2020-07-03 19:03:23.315 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4e80a001, org.springframework.security.web.context.SecurityContextPersistenceFilter@7b53b1ad, org.springframework.security.web.header.HeaderWriterFilter@21e45a6f, org.springframework.security.web.authentication.logout.LogoutFilter@2b80e5a9, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@14d25b6e, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@51d0ec6f, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@624b523, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3cc053, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@594131f2, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@51c65a43, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@50b46e24, org.springframework.security.web.session.SessionManagementFilter@1a1ccaaf, org.springframework.security.web.access.ExceptionTranslationFilter@43471a7e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@56826a75]
+2020-07-03 19:03:23.528 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-03 19:03:23.825 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2020-07-03 19:03:23.958 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2020-07-03 19:03:23.982 [main] INFO  com.xinlei.MybatisPlusApplication - Started MybatisPlusApplication in 9.803 seconds (JVM running for 13.155)
+2020-07-03 19:03:33.138 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-03 19:03:33.139 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-07-03 19:03:33.168 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 29 ms
+2020-07-03 19:03:41.211 [http-nio-8082-exec-6] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-07-03 19:07:11.879 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-03 19:07:11.880 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-07-03 19:07:11.924 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-07-03 19:09:51.900 [main] INFO  com.xinlei.MybatisPlusApplication - Starting MybatisPlusApplication on DESKTOP-EQ8JBUC with PID 21064 (F:\test\mybatis-plus\target\classes started by dell in F:\test\mybatis-plus)
+2020-07-03 19:09:51.910 [main] INFO  com.xinlei.MybatisPlusApplication - No active profile set, falling back to default profiles: default
+2020-07-03 19:09:54.038 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2020-07-03 19:09:54.050 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2020-07-03 19:09:54.051 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-07-03 19:09:54.051 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-03 19:09:54.182 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-07-03 19:09:54.182 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2133 ms
+2020-07-03 19:09:55.358 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@15d3793b, org.springframework.security.web.context.SecurityContextPersistenceFilter@eed890d, org.springframework.security.web.header.HeaderWriterFilter@5b8572df, org.springframework.security.web.authentication.logout.LogoutFilter@608cd501, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@644a3add, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@553d2579, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@55e1192, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@10f477e2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@38588dea, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@4b765e92, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1213ffbc, org.springframework.security.web.session.SessionManagementFilter@7aaad0, org.springframework.security.web.access.ExceptionTranslationFilter@37c5284a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7f0a133d]
+2020-07-03 19:09:55.471 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-03 19:09:55.545 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-07-03 19:09:56.004 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2020-07-03 19:09:56.040 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2020-07-03 19:09:56.051 [main] INFO  com.xinlei.MybatisPlusApplication - Started MybatisPlusApplication in 4.989 seconds (JVM running for 6.712)
+2020-07-03 19:10:03.627 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-03 19:10:03.627 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-07-03 19:10:03.635 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2020-07-03 19:10:09.831 [http-nio-8082-exec-4] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited

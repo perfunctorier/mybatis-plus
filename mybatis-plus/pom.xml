@@ -19,22 +19,37 @@
     </properties>
 
     <dependencies>
+        <!-- Thymeleaf模板 -->
+        <dependency>
+            <groupId>org.thymeleaf</groupId>
+            <artifactId>thymeleaf-spring5</artifactId>
+        </dependency>
+        <!-- Thymeleaf模板 -->
+        <dependency>
+            <groupId>org.thymeleaf.extras</groupId>
+            <artifactId>thymeleaf-extras-springsecurity5</artifactId>
+        </dependency>
+        <!-- 修改Thymeleaf校验规则 HTML5改成LEGACYHTML5 -->
+        <dependency>
+            <groupId>net.sourceforge.nekohtml</groupId>
+            <artifactId>nekohtml</artifactId>
+        </dependency>
         <!-- 外部tomcat启动 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-tomcat</artifactId>
         </dependency>
         <!--jsp页面使用jstl标签-->
-        <dependency>
+        <!--<dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>jstl</artifactId>
-        </dependency>
+        </dependency>-->
         <!--用于编译jsp-->
-        <dependency>
+        <!--<dependency>
             <groupId>org.apache.tomcat.embed</groupId>
             <artifactId>tomcat-embed-jasper</artifactId>
             <scope>provided</scope>
-        </dependency>
+        </dependency>-->
 
         <!-- mybatis-plus -->
         <dependency>
@@ -63,6 +78,11 @@
             <version>1.2.12</version>
         </dependency>
 
+        <!-- spring-security -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>

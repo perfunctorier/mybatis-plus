@@ -9,4 +9,8 @@ import java.util.List;
 @Repository
 public interface UserService {
     public List<User> getUserList();
+
+    public User getUserByName(String name);
+
+    public User getUserById(int id);
 }
